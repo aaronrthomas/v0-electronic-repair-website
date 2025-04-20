@@ -190,6 +190,9 @@ export default function TechniciansPage() {
             <Link href="/contact" className="text-sm font-medium">
               Contact
             </Link>
+            <Link href="/consultation" className="text-sm font-medium">
+              Consultation Booth
+            </Link>
           </nav>
           <AuthStatus />
         </div>

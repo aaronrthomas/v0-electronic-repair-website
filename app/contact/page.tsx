@@ -29,6 +29,9 @@ export default function ContactPage() {
             <Link href="/contact" className="text-sm font-medium">
               Contact
             </Link>
+            <Link href="/consultation" className="text-sm font-medium">
+              Consultation Booth
+            </Link>
           </nav>
           <AuthStatus />
         </div>

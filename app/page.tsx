@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { MapPin, Search, Smartphone, Laptop, Tv, Headphones } from "lucide-react"
+import { MapPin, Search, Smartphone, Laptop, Tv, Headphones, MessageSquare } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Card, CardContent } from "@/components/ui/card"
@@ -26,6 +26,9 @@ export default function Home() {
             </Link>
             <Link href="/contact" className="text-sm font-medium">
               Contact
+            </Link>
+            <Link href="/consultation" className="text-sm font-medium">
+              Consultation Booth
             </Link>
           </nav>
           <AuthStatus />
@@ -137,6 +140,14 @@ export default function Home() {
                   <h3 className="text-xl font-bold">Get Fixed</h3>
                   <p className="text-gray-500">Schedule a repair and get your device working again</p>
                 </div>
+              </div>
+              <div className="mt-8">
+                <Link href="/consultation">
+                  <Button size="lg" className="gap-2">
+                    <MessageSquare className="h-5 w-5" />
+                    Try Our Virtual Consultation Booth
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
